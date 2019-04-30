@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221E2CD922789212006AF971 /* CSSpriteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 221E2CD822789212006AF971 /* CSSpriteModel.m */; };
+		228E4C6D227346280061607F /* CSHexStrConvertDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 228E4C6C227346280061607F /* CSHexStrConvertDataModel.m */; };
+		22CAED20226993430004B5AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CAED1F226993430004B5AF /* AppDelegate.m */; };
+		22CAED23226993430004B5AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CAED22226993430004B5AF /* ViewController.m */; };
+		22CAED25226993450004B5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CAED24226993450004B5AF /* Assets.xcassets */; };
+		22CAED28226993450004B5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CAED26226993450004B5AF /* Main.storyboard */; };
+		22CAED2B226993450004B5AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CAED2A226993450004B5AF /* main.m */; };
+		22CAED36226993460004B5AF /* SimulateMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CAED35226993460004B5AF /* SimulateMapTests.m */; };
+		22CAED41226993460004B5AF /* SimulateMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CAED40226993460004B5AF /* SimulateMapUITests.m */; };
+		22CAED5022699AEF0004B5AF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CAED4F22699AEF0004B5AF /* MapKit.framework */; };
+		22CAED572269A23F0004B5AF /* CSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CAED562269A23F0004B5AF /* CSAnnotation.m */; };
+		22ED9FB3226A1D2E0080C388 /* JZLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED9FAF226A1D2E0080C388 /* JZLocationConverter.m */; };
+		22ED9FB4226A1D2E0080C388 /* ZCChinaLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED9FB2226A1D2E0080C388 /* ZCChinaLocation.m */; };
+		E8AA7164A3A77511401D7EA6 /* libPods-SimulateMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEE79B3C52DE80FF63C9CB7 /* libPods-SimulateMap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22CAED32226993460004B5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22CAED13226993430004B5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22CAED1A226993430004B5AF;
+			remoteInfo = SimulateMap;
+		};
+		22CAED3D226993460004B5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22CAED13226993430004B5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22CAED1A226993430004B5AF;
+			remoteInfo = SimulateMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16D1F20A204BD1DA01F222A3 /* Pods-SimulateMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimulateMap.debug.xcconfig"; path = "Target Support Files/Pods-SimulateMap/Pods-SimulateMap.debug.xcconfig"; sourceTree = "<group>"; };
+		221E2CD722789212006AF971 /* CSSpriteModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSSpriteModel.h; sourceTree = "<group>"; };
+		221E2CD822789212006AF971 /* CSSpriteModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSSpriteModel.m; sourceTree = "<group>"; };
+		228E4C6B227346280061607F /* CSHexStrConvertDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSHexStrConvertDataModel.h; sourceTree = "<group>"; };
+		228E4C6C227346280061607F /* CSHexStrConvertDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSHexStrConvertDataModel.m; sourceTree = "<group>"; };
+		22CAED1B226993430004B5AF /* SimulateMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimulateMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CAED1E226993430004B5AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22CAED1F226993430004B5AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22CAED21226993430004B5AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22CAED22226993430004B5AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22CAED24226993450004B5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22CAED27226993450004B5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22CAED29226993450004B5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CAED2A226993450004B5AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22CAED2C226993450004B5AF /* SimulateMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimulateMap.entitlements; sourceTree = "<group>"; };
+		22CAED31226993460004B5AF /* SimulateMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulateMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CAED35226993460004B5AF /* SimulateMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulateMapTests.m; sourceTree = "<group>"; };
+		22CAED37226993460004B5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CAED3C226993460004B5AF /* SimulateMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulateMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CAED40226993460004B5AF /* SimulateMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulateMapUITests.m; sourceTree = "<group>"; };
+		22CAED42226993460004B5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CAED4F22699AEF0004B5AF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		22CAED552269A23F0004B5AF /* CSAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAnnotation.h; sourceTree = "<group>"; };
+		22CAED562269A23F0004B5AF /* CSAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAnnotation.m; sourceTree = "<group>"; };
+		22ED9FAF226A1D2E0080C388 /* JZLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZLocationConverter.m; sourceTree = "<group>"; };
+		22ED9FB0226A1D2E0080C388 /* ZCChinaLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCChinaLocation.h; sourceTree = "<group>"; };
+		22ED9FB1226A1D2E0080C388 /* JZLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZLocationConverter.h; sourceTree = "<group>"; };
+		22ED9FB2226A1D2E0080C388 /* ZCChinaLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCChinaLocation.m; sourceTree = "<group>"; };
+		7B77B4FB823C68E22ADBC5E7 /* Pods-SimulateMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimulateMap.release.xcconfig"; path = "Target Support Files/Pods-SimulateMap/Pods-SimulateMap.release.xcconfig"; sourceTree = "<group>"; };
+		DAEE79B3C52DE80FF63C9CB7 /* libPods-SimulateMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimulateMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CAED18226993430004B5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CAED5022699AEF0004B5AF /* MapKit.framework in Frameworks */,
+				E8AA7164A3A77511401D7EA6 /* libPods-SimulateMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CAED2E226993460004B5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CAED39226993460004B5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228E4C6A227345DC0061607F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				228E4C6B227346280061607F /* CSHexStrConvertDataModel.h */,
+				228E4C6C227346280061607F /* CSHexStrConvertDataModel.m */,
+				221E2CD722789212006AF971 /* CSSpriteModel.h */,
+				221E2CD822789212006AF971 /* CSSpriteModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22CAED12226993430004B5AF = {
+			isa = PBXGroup;
+			children = (
+				22CAED1D226993430004B5AF /* SimulateMap */,
+				22CAED34226993460004B5AF /* SimulateMapTests */,
+				22CAED3F226993460004B5AF /* SimulateMapUITests */,
+				22CAED1C226993430004B5AF /* Products */,
+				22CAED4E22699AEF0004B5AF /* Frameworks */,
+				8A4DACB6647F907B43DA065D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		22CAED1C226993430004B5AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22CAED1B226993430004B5AF /* SimulateMap.app */,
+				22CAED31226993460004B5AF /* SimulateMapTests.xctest */,
+				22CAED3C226993460004B5AF /* SimulateMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22CAED1D226993430004B5AF /* SimulateMap */ = {
+			isa = PBXGroup;
+			children = (
+				228E4C6A227345DC0061607F /* Model */,
+				22ED9FAE226A1D2E0080C388 /* JZLocationConverter */,
+				22CAED1E226993430004B5AF /* AppDelegate.h */,
+				22CAED1F226993430004B5AF /* AppDelegate.m */,
+				22CAED21226993430004B5AF /* ViewController.h */,
+				22CAED22226993430004B5AF /* ViewController.m */,
+				22CAED24226993450004B5AF /* Assets.xcassets */,
+				22CAED26226993450004B5AF /* Main.storyboard */,
+				22CAED29226993450004B5AF /* Info.plist */,
+				22CAED2A226993450004B5AF /* main.m */,
+				22CAED2C226993450004B5AF /* SimulateMap.entitlements */,
+				22CAED552269A23F0004B5AF /* CSAnnotation.h */,
+				22CAED562269A23F0004B5AF /* CSAnnotation.m */,
+			);
+			path = SimulateMap;
+			sourceTree = "<group>";
+		};
+		22CAED34226993460004B5AF /* SimulateMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				22CAED35226993460004B5AF /* SimulateMapTests.m */,
+				22CAED37226993460004B5AF /* Info.plist */,
+			);
+			path = SimulateMapTests;
+			sourceTree = "<group>";
+		};
+		22CAED3F226993460004B5AF /* SimulateMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22CAED40226993460004B5AF /* SimulateMapUITests.m */,
+				22CAED42226993460004B5AF /* Info.plist */,
+			);
+			path = SimulateMapUITests;
+			sourceTree = "<group>";
+		};
+		22CAED4E22699AEF0004B5AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22CAED4F22699AEF0004B5AF /* MapKit.framework */,
+				DAEE79B3C52DE80FF63C9CB7 /* libPods-SimulateMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22ED9FAE226A1D2E0080C388 /* JZLocationConverter */ = {
+			isa = PBXGroup;
+			children = (
+				22ED9FAF226A1D2E0080C388 /* JZLocationConverter.m */,
+				22ED9FB0226A1D2E0080C388 /* ZCChinaLocation.h */,
+				22ED9FB1226A1D2E0080C388 /* JZLocationConverter.h */,
+				22ED9FB2226A1D2E0080C388 /* ZCChinaLocation.m */,
+			);
+			path = JZLocationConverter;
+			sourceTree = "<group>";
+		};
+		8A4DACB6647F907B43DA065D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16D1F20A204BD1DA01F222A3 /* Pods-SimulateMap.debug.xcconfig */,
+				7B77B4FB823C68E22ADBC5E7 /* Pods-SimulateMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22CAED1A226993430004B5AF /* SimulateMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CAED45226993460004B5AF /* Build configuration list for PBXNativeTarget "SimulateMap" */;
+			buildPhases = (
+				BF9B83FEB4464D52D0211E23 /* [CP] Check Pods Manifest.lock */,
+				22CAED17226993430004B5AF /* Sources */,
+				22CAED18226993430004B5AF /* Frameworks */,
+				22CAED19226993430004B5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimulateMap;
+			productName = SimulateMap;
+			productReference = 22CAED1B226993430004B5AF /* SimulateMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22CAED30226993460004B5AF /* SimulateMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CAED48226993460004B5AF /* Build configuration list for PBXNativeTarget "SimulateMapTests" */;
+			buildPhases = (
+				22CAED2D226993460004B5AF /* Sources */,
+				22CAED2E226993460004B5AF /* Frameworks */,
+				22CAED2F226993460004B5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22CAED33226993460004B5AF /* PBXTargetDependency */,
+			);
+			name = SimulateMapTests;
+			productName = SimulateMapTests;
+			productReference = 22CAED31226993460004B5AF /* SimulateMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22CAED3B226993460004B5AF /* SimulateMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CAED4B226993460004B5AF /* Build configuration list for PBXNativeTarget "SimulateMapUITests" */;
+			buildPhases = (
+				22CAED38226993460004B5AF /* Sources */,
+				22CAED39226993460004B5AF /* Frameworks */,
+				22CAED3A226993460004B5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22CAED3E226993460004B5AF /* PBXTargetDependency */,
+			);
+			name = SimulateMapUITests;
+			productName = SimulateMapUITests;
+			productReference = 22CAED3C226993460004B5AF /* SimulateMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22CAED13226993430004B5AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CS;
+				TargetAttributes = {
+					22CAED1A226993430004B5AF = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					22CAED30226993460004B5AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 22CAED1A226993430004B5AF;
+					};
+					22CAED3B226993460004B5AF = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 22CAED1A226993430004B5AF;
+					};
+				};
+			};
+			buildConfigurationList = 22CAED16226993430004B5AF /* Build configuration list for PBXProject "SimulateMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22CAED12226993430004B5AF;
+			productRefGroup = 22CAED1C226993430004B5AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22CAED1A226993430004B5AF /* SimulateMap */,
+				22CAED30226993460004B5AF /* SimulateMapTests */,
+				22CAED3B226993460004B5AF /* SimulateMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CAED19226993430004B5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CAED25226993450004B5AF /* Assets.xcassets in Resources */,
+				22CAED28226993450004B5AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CAED2F226993460004B5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CAED3A226993460004B5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF9B83FEB4464D52D0211E23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimulateMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CAED17226993430004B5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221E2CD922789212006AF971 /* CSSpriteModel.m in Sources */,
+				22CAED23226993430004B5AF /* ViewController.m in Sources */,
+				22CAED2B226993450004B5AF /* main.m in Sources */,
+				228E4C6D227346280061607F /* CSHexStrConvertDataModel.m in Sources */,
+				22CAED572269A23F0004B5AF /* CSAnnotation.m in Sources */,
+				22ED9FB4226A1D2E0080C388 /* ZCChinaLocation.m in Sources */,
+				22ED9FB3226A1D2E0080C388 /* JZLocationConverter.m in Sources */,
+				22CAED20226993430004B5AF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CAED2D226993460004B5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CAED36226993460004B5AF /* SimulateMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22CAED38226993460004B5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CAED41226993460004B5AF /* SimulateMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22CAED33226993460004B5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22CAED1A226993430004B5AF /* SimulateMap */;
+			targetProxy = 22CAED32226993460004B5AF /* PBXContainerItemProxy */;
+		};
+		22CAED3E226993460004B5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22CAED1A226993430004B5AF /* SimulateMap */;
+			targetProxy = 22CAED3D226993460004B5AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22CAED26226993450004B5AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CAED27226993450004B5AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22CAED43226993460004B5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22CAED44226993460004B5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22CAED46226993460004B5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D1F20A204BD1DA01F222A3 /* Pods-SimulateMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimulateMap/SimulateMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZX8G85BFY;
+				INFOPLIST_FILE = SimulateMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.SimulateMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22CAED47226993460004B5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B77B4FB823C68E22ADBC5E7 /* Pods-SimulateMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimulateMap/SimulateMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZX8G85BFY;
+				INFOPLIST_FILE = SimulateMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.SimulateMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22CAED49226993460004B5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZX8G85BFY;
+				INFOPLIST_FILE = SimulateMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.SimulateMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimulateMap.app/Contents/MacOS/SimulateMap";
+			};
+			name = Debug;
+		};
+		22CAED4A226993460004B5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZX8G85BFY;
+				INFOPLIST_FILE = SimulateMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.SimulateMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimulateMap.app/Contents/MacOS/SimulateMap";
+			};
+			name = Release;
+		};
+		22CAED4C226993460004B5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZX8G85BFY;
+				INFOPLIST_FILE = SimulateMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.SimulateMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimulateMap;
+			};
+			name = Debug;
+		};
+		22CAED4D226993460004B5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PZX8G85BFY;
+				INFOPLIST_FILE = SimulateMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.SimulateMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimulateMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22CAED16226993430004B5AF /* Build configuration list for PBXProject "SimulateMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CAED43226993460004B5AF /* Debug */,
+				22CAED44226993460004B5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CAED45226993460004B5AF /* Build configuration list for PBXNativeTarget "SimulateMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CAED46226993460004B5AF /* Debug */,
+				22CAED47226993460004B5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CAED48226993460004B5AF /* Build configuration list for PBXNativeTarget "SimulateMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CAED49226993460004B5AF /* Debug */,
+				22CAED4A226993460004B5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CAED4B226993460004B5AF /* Build configuration list for PBXNativeTarget "SimulateMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CAED4C226993460004B5AF /* Debug */,
+				22CAED4D226993460004B5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22CAED13226993430004B5AF /* Project object */;
+}

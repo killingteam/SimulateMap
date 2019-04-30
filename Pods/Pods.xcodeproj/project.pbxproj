@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0401D51B7251AF858878353E69C9508D /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CD58610605E50A41ACAB3C8264733B48 /* YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4585332130B5A52BA9AA668B3CC61CFD /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1277D73960411304BD69959E12ADADF9 /* NSObject+YYModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		473EF149990978FD740ACCC9EAE2E833 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC82F14100679C79608AEF58A994B7F5 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CC22C000576426D10D0B60E8FB47D63 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 89984F232F38F32FAB1E14C26190ED33 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E7AFC4B56A6D83DD80603617CF97608 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E34CBFED33F55004C2BD35A326024A89 /* YYClassInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		807068491DB8A31DEF6FB632A0B80830 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E785BA3F32DEC53E37C33357C230A9 /* SocketRocket-dummy.m */; };
+		83C5B7C13B4E1519EC0443712F4B1362 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E94DEFD73849DC5C0AC5BE6C58A3A5 /* SRWebSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B816F2F73A26A9901257E0B34ECFCF98 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A61F10CA008D51472BB5F475167592C /* YYModel-dummy.m */; };
+		D5773756F2E08748D2567AB8B3712B13 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C812941492550E1918AE37873B1A64DD /* SocketRocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2F32EE7EFBC6A52C099E6347FF42521 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC224AA67E119CF3027B3B170CAFDF2 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7895CAA145F96EBDC1FC4CE3671CF47 /* Pods-SimulateMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 631CECCD9F3959C79D0EC203C95BA9BE /* Pods-SimulateMap-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A4A8364C53E94AE2B3EEE82E0BC0454 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A54B62B381ADE392DC8AFE01CBCFB7A;
+			remoteInfo = YYModel;
+		};
+		B19AB529E5331A0EA2EE963BDC96F963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB16FB0A185E4B4059078D4D051BD782;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1277D73960411304BD69959E12ADADF9 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		12E94DEFD73849DC5C0AC5BE6C58A3A5 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		1C2ABD447B1FC02132D6037F328E9C86 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		2976AAC4BDFC35782B717C8319BE5284 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		4A4AC2DFCA0CE42178FCC6F886052FFC /* Pods-SimulateMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimulateMap.debug.xcconfig"; sourceTree = "<group>"; };
+		4B76333D1894200E6AF189B30626DE56 /* Pods-SimulateMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimulateMap-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52E785BA3F32DEC53E37C33357C230A9 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		5A61F10CA008D51472BB5F475167592C /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		631CECCD9F3959C79D0EC203C95BA9BE /* Pods-SimulateMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimulateMap-dummy.m"; sourceTree = "<group>"; };
+		7394F756EEDE76E47CB2FC9D3FFEF055 /* libPods-SimulateMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SimulateMap.a"; path = "libPods-SimulateMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89984F232F38F32FAB1E14C26190ED33 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		9A0E2D19C3473E7A019FCADCAAAFF0D3 /* Pods-SimulateMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimulateMap.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAC224AA67E119CF3027B3B170CAFDF2 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		BC82F14100679C79608AEF58A994B7F5 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		C03B086FD6BF8353F0345A2A39341893 /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYModel.a; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C812941492550E1918AE37873B1A64DD /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		C85112B1DF8F2D302F19E43C23473223 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD58610605E50A41ACAB3C8264733B48 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		D876ABF8220E418C4304E11E81A1C4CA /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
+		DD0EB6A9286B61475FDCEE4D273D409F /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		E34CBFED33F55004C2BD35A326024A89 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		E8766AADCE9451F2CD514D8DF3A99380 /* Pods-SimulateMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimulateMap-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		928550EAA2AE89D99316B49FCCA5F0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE3491C675CC8F71A665E123F583A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A43E9B4A083A9990C5FF72E2A89895D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032B54CBD0DD7E38DFBF1E6621E6EF82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3211826B700C7F13EDA6FAC8A8B7458A /* SocketRocket */,
+				4E1C3AE6613E3DAEA947B53F4E088968 /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2EAAA60230ECE793FAF074186D1E7BC1 /* Pods-SimulateMap */ = {
+			isa = PBXGroup;
+			children = (
+				4B76333D1894200E6AF189B30626DE56 /* Pods-SimulateMap-acknowledgements.markdown */,
+				E8766AADCE9451F2CD514D8DF3A99380 /* Pods-SimulateMap-acknowledgements.plist */,
+				631CECCD9F3959C79D0EC203C95BA9BE /* Pods-SimulateMap-dummy.m */,
+				4A4AC2DFCA0CE42178FCC6F886052FFC /* Pods-SimulateMap.debug.xcconfig */,
+				9A0E2D19C3473E7A019FCADCAAAFF0D3 /* Pods-SimulateMap.release.xcconfig */,
+			);
+			name = "Pods-SimulateMap";
+			path = "Target Support Files/Pods-SimulateMap";
+			sourceTree = "<group>";
+		};
+		3211826B700C7F13EDA6FAC8A8B7458A /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				C812941492550E1918AE37873B1A64DD /* SocketRocket.h */,
+				89984F232F38F32FAB1E14C26190ED33 /* SRWebSocket.h */,
+				12E94DEFD73849DC5C0AC5BE6C58A3A5 /* SRWebSocket.m */,
+				402A3DAA5DFCF3CED948515F08A76670 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		402A3DAA5DFCF3CED948515F08A76670 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C2ABD447B1FC02132D6037F328E9C86 /* SocketRocket.xcconfig */,
+				52E785BA3F32DEC53E37C33357C230A9 /* SocketRocket-dummy.m */,
+				2976AAC4BDFC35782B717C8319BE5284 /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		4E1C3AE6613E3DAEA947B53F4E088968 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				BC82F14100679C79608AEF58A994B7F5 /* NSObject+YYModel.h */,
+				1277D73960411304BD69959E12ADADF9 /* NSObject+YYModel.m */,
+				AAC224AA67E119CF3027B3B170CAFDF2 /* YYClassInfo.h */,
+				E34CBFED33F55004C2BD35A326024A89 /* YYClassInfo.m */,
+				CD58610605E50A41ACAB3C8264733B48 /* YYModel.h */,
+				E6D515D6BAF534930E2801395B3D6F33 /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		52298CFB239C1BBBD0BA89A116C69290 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EAAA60230ECE793FAF074186D1E7BC1 /* Pods-SimulateMap */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				032B54CBD0DD7E38DFBF1E6621E6EF82 /* Pods */,
+				DE3DA16912ED11FE1C1BF3837CD11C28 /* Products */,
+				52298CFB239C1BBBD0BA89A116C69290 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE3DA16912ED11FE1C1BF3837CD11C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7394F756EEDE76E47CB2FC9D3FFEF055 /* libPods-SimulateMap.a */,
+				C85112B1DF8F2D302F19E43C23473223 /* libSocketRocket.a */,
+				C03B086FD6BF8353F0345A2A39341893 /* libYYModel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D515D6BAF534930E2801395B3D6F33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D876ABF8220E418C4304E11E81A1C4CA /* YYModel.xcconfig */,
+				5A61F10CA008D51472BB5F475167592C /* YYModel-dummy.m */,
+				DD0EB6A9286B61475FDCEE4D273D409F /* YYModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1482B33FC1388D2E6EA8E4A08B2C8056 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8295F2381978ABC3F3131B2B1A0285 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5773756F2E08748D2567AB8B3712B13 /* SocketRocket.h in Headers */,
+				5CC22C000576426D10D0B60E8FB47D63 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8878CB0A5368DF471336A340C1F20A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473EF149990978FD740ACCC9EAE2E833 /* NSObject+YYModel.h in Headers */,
+				E2F32EE7EFBC6A52C099E6347FF42521 /* YYClassInfo.h in Headers */,
+				0401D51B7251AF858878353E69C9508D /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A54B62B381ADE392DC8AFE01CBCFB7A /* YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA610CB379A7D3916384B04D67182318 /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildPhases = (
+				BE8878CB0A5368DF471336A340C1F20A /* Headers */,
+				43FDD0C86E9B8E3F0144CEC2911AC02B /* Sources */,
+				9FE3491C675CC8F71A665E123F583A94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = C03B086FD6BF8353F0345A2A39341893 /* libYYModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB16FB0A185E4B4059078D4D051BD782 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D248DC3E76B40632555E4632542B558A /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				5B8295F2381978ABC3F3131B2B1A0285 /* Headers */,
+				4B9EC6C2FEA579BC3D17EB2AC233B12C /* Sources */,
+				A43E9B4A083A9990C5FF72E2A89895D0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = C85112B1DF8F2D302F19E43C23473223 /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C091572EA82F5810429C12C8F96CD1ED /* Pods-SimulateMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01EBA7D64196EB7E535C9C029ECDAB84 /* Build configuration list for PBXNativeTarget "Pods-SimulateMap" */;
+			buildPhases = (
+				1482B33FC1388D2E6EA8E4A08B2C8056 /* Headers */,
+				523BA83200F3B5DACE1146C44DCFDD14 /* Sources */,
+				928550EAA2AE89D99316B49FCCA5F0E1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE0F25D56B81DE7F66BEE3C7D034AD6 /* PBXTargetDependency */,
+				34807DCC18EFC436BA1CB75197C4FC8E /* PBXTargetDependency */,
+			);
+			name = "Pods-SimulateMap";
+			productName = "Pods-SimulateMap";
+			productReference = 7394F756EEDE76E47CB2FC9D3FFEF055 /* libPods-SimulateMap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DE3DA16912ED11FE1C1BF3837CD11C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C091572EA82F5810429C12C8F96CD1ED /* Pods-SimulateMap */,
+				BB16FB0A185E4B4059078D4D051BD782 /* SocketRocket */,
+				6A54B62B381ADE392DC8AFE01CBCFB7A /* YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43FDD0C86E9B8E3F0144CEC2911AC02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4585332130B5A52BA9AA668B3CC61CFD /* NSObject+YYModel.m in Sources */,
+				7E7AFC4B56A6D83DD80603617CF97608 /* YYClassInfo.m in Sources */,
+				B816F2F73A26A9901257E0B34ECFCF98 /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9EC6C2FEA579BC3D17EB2AC233B12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807068491DB8A31DEF6FB632A0B80830 /* SocketRocket-dummy.m in Sources */,
+				83C5B7C13B4E1519EC0443712F4B1362 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523BA83200F3B5DACE1146C44DCFDD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7895CAA145F96EBDC1FC4CE3671CF47 /* Pods-SimulateMap-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34807DCC18EFC436BA1CB75197C4FC8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 6A54B62B381ADE392DC8AFE01CBCFB7A /* YYModel */;
+			targetProxy = 5A4A8364C53E94AE2B3EEE82E0BC0454 /* PBXContainerItemProxy */;
+		};
+		FFE0F25D56B81DE7F66BEE3C7D034AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = BB16FB0A185E4B4059078D4D051BD782 /* SocketRocket */;
+			targetProxy = B19AB529E5331A0EA2EE963BDC96F963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BCB2C0153607D56C2F0A20D09242D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4AC2DFCA0CE42178FCC6F886052FFC /* Pods-SimulateMap.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1B265AA7B7630C7719A5F6EC61FE5597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D876ABF8220E418C4304E11E81A1C4CA /* YYModel.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		97735B90B60C29A8D1118A0462F30A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9BF3B60406E2FCAB4556DF372BC7C1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D876ABF8220E418C4304E11E81A1C4CA /* YYModel.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		ABC90CF725D835759A4079BDD9E312CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2ABD447B1FC02132D6037F328E9C86 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		AD25B104B91F3774FC21141ABBAA437A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0E2D19C3473E7A019FCADCAAAFF0D3 /* Pods-SimulateMap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D0A5C185E6F96F034A3680A0F734FD8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4EE0D9A5719084F26E79E242D304D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2ABD447B1FC02132D6037F328E9C86 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01EBA7D64196EB7E535C9C029ECDAB84 /* Build configuration list for PBXNativeTarget "Pods-SimulateMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCB2C0153607D56C2F0A20D09242D9A /* Debug */,
+				AD25B104B91F3774FC21141ABBAA437A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97735B90B60C29A8D1118A0462F30A17 /* Debug */,
+				D0A5C185E6F96F034A3680A0F734FD8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D248DC3E76B40632555E4632542B558A /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC90CF725D835759A4079BDD9E312CE /* Debug */,
+				E4EE0D9A5719084F26E79E242D304D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA610CB379A7D3916384B04D67182318 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B265AA7B7630C7719A5F6EC61FE5597 /* Debug */,
+				9BF3B60406E2FCAB4556DF372BC7C1CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
