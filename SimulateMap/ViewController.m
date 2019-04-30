@@ -57,6 +57,9 @@ NSTextFieldDelegate>
 - (IBAction)pressSocketButton:(NSButton *)sender {
     self.model.type = CSRequestTypeSprite;
     self.model.searchSpriteId = self.spriteTextField.stringValue;
+    [self.mapView removeAnnotations:self.model.annotationArray];
+    [self.mapView removeOverlay:self.polyline];
+    [self.model.annotationArray removeAllObjects];
     [self openSocket];
     
     CLLocationCoordinate2D centerCoordinate = [JZLocationConverter gcj02ToWgs84:self.mapView.centerCoordinate];
@@ -106,11 +109,23 @@ NSTextFieldDelegate>
     [self addOverLayer];
 }
 - (IBAction)cleanAllAction:(NSButton *)sender {
+    [self.mapView removeAnnotations:self.model.annoShowArray];
+    [self.model.annoShowArray removeAllObjects];
+    [self.mapView removeAnnotations:self.model.annotationArray];
+    [self.model.annotationArray removeAllObjects];
     [self.mapView removeAnnotations:self.annotationArray];
     [self.annotationArray removeAllObjects];
     [self.mapView removeOverlay:self.polyline];
 }
 - (IBAction)printGPX:(NSButton *)sender {
+    
+    NSArray <CSAnnotation *>*printArray = @[];
+    if (self.annotationArray.count > 0) {
+        printArray = self.annotationArray;
+    } else if (self.model.annotationArray.count > 0) {
+        printArray = self.model.annotationArray;
+    }
+    
     NSDate *now = [NSDate date];
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss'Z'"];
@@ -126,7 +141,7 @@ NSTextFieldDelegate>
     [contentStr appendString:header];
     
     NSMutableArray <CLLocation *>*locationArr = [NSMutableArray array];
-    for (CSAnnotation *annotation in self.annotationArray) {
+    for (CSAnnotation *annotation in printArray) {
         CLLocationCoordinate2D targetCoord = [JZLocationConverter gcj02ToWgs84:annotation.coordinate];
         CLLocation *location = [[CLLocation alloc] initWithLatitude:targetCoord.latitude longitude:targetCoord.longitude];
         
@@ -190,8 +205,6 @@ NSTextFieldDelegate>
         layerArray = self.annotationArray;
     } else if (self.model.annotationArray.count > 0) {
         layerArray = self.model.annotationArray;
-    } else if (self.model.annoShowArray.count > 0) {
-        layerArray = self.model.annoShowArray;
     }
     
     CLLocationCoordinate2D *coordinates = (CLLocationCoordinate2D *)malloc(sizeof(CLLocationCoordinate2D) * layerArray.count);
@@ -274,7 +287,9 @@ NSTextFieldDelegate>
             }
             [self addOverLayer];
         } else if (self.model.type == CSRequestTypeBoss) {
-            
+            for (CSAnnotation *anno in self.model.annoShowArray) {
+                [self.mapView addAnnotation:anno];
+            }
         }
     }
 }

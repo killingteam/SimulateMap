@@ -36,7 +36,27 @@
 }
 
 - (void)findBossWithDic:(NSDictionary *)obj {
-//    NSArray *bossArr =
+    NSArray *bossArr = obj[@"dojo_list"];
+    for (NSDictionary *dic in bossArr) {
+        long latitudeValue = [dic[@"latitude"] longValue];
+        NSMutableString *latitudeStr = [NSMutableString stringWithString:@(latitudeValue).stringValue];
+        if (latitudeStr.length <= 6) {
+            continue;
+        }
+        [latitudeStr insertString:@"." atIndex:latitudeStr.length - 6];
+        
+        long longtitudeValue = [dic[@"longtitude"] longValue];
+        NSMutableString *longtitudeStr = [NSMutableString stringWithString:@(longtitudeValue).stringValue];
+        if (longtitudeStr.length <= 6) {
+            continue;
+        }
+        [longtitudeStr insertString:@"." atIndex:longtitudeStr.length - 6];
+        
+        CLLocationCoordinate2D coor = CLLocationCoordinate2DMake(latitudeStr.doubleValue, longtitudeStr.doubleValue);
+        CSAnnotation *anno = [CSAnnotation new];
+        anno.coordinate = coor;
+        [self.annoShowArray addObject:anno];
+    }
 }
 
 //找妖怪
